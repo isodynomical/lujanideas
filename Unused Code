@@ -1,0 +1,21 @@
+//Click on image and it changes
+    //JS
+    function changeImage() {
+    if(document.getElementById("ClickAndChange").src == "http://upload.wikimedia.org/wikipedia/commons/7/70/1200grandcentralave.jpg") {
+        document.getElementById("ClickAndChange").src = "http://www.floydnorman.com/storage/IMG_1992.JPG?__SQUARESPACE_CACHEVERSION=1349281281114";
+    } else if(document.getElementById("ClickAndChange").src == "http://www.floydnorman.com/storage/IMG_1992.JPG?__SQUARESPACE_CACHEVERSION=1349281281114") {
+        document.getElementById("ClickAndChange").src = "https://onesimplereason.files.wordpress.com/2010/02/hpim1553.jpg";
+    } else {
+        document.getElementById("ClickAndChange").src = "http://upload.wikimedia.org/wikipedia/commons/7/70/1200grandcentralave.jpg";
+    }
+    }
+    //HTML
+    <div id="gallery">
+        <img class="galleryImages" src="http://upload.wikimedia.org/wikipedia/commons/7/70/1200grandcentralave.jpg" id="ClickAndChange" onclick="changeImage()" alt="Campus" title="Campus" />
+    </div>
+    //CSS
+    .galleryImages{
+    width:70%;
+    margin-left:9.3em;
+    border: solid blue 1px;
+    }

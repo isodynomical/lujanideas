@@ -1,0 +1,60 @@
+<XHTML1.1!DOCTYPE>
+    <html>
+
+    <head>
+        <link type="text/css" rel='stylesheet' href='index.css' />
+        <title>Vehicles</title>
+        <link rel="shortcut icon" href="Images/P02.ComLogo.png">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="headerLeft">
+                <img id="industries" src="Images/P01.Industries.png" alt="Stark Industries" title="Stark Industries" />
+            </div>
+            <div class="headerRight">
+                <button class="clicky" onclick="Home()">Home</button>
+                <button class="clicky" onclick="Animation()">Vehicles</button>
+                <button class="clicky" onclick="LiveAction()">Computers</button>
+                <button class="clicky" onclick="Pixar()">Displays</button>
+                <button class="clicky" onclick="ThemeParks()">Energy</button>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="left">
+                <h1 class="title">Something</h1>
+                <ul class="text">
+                    <li class="one"><a onclick="return toggleMe('para1')">SomethingElse</a>
+                    </li>
+                    <li class="two" id="para1" style="display:none;">
+                        <br>
+                        <i>Description</i>
+                    </li>
+                    <br>
+                    <li class="one"><a onclick="return toggleMe('para2')">SomethingElse2</a>
+                    </li>
+                    <li class="two" id="para2" style="display:none;">
+                        <br>
+                        <i>Description2</i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <br/>
+                <img class="image" src="https://openclipart.org/image/2400px/svg_to_png/169168/Corvette-rot.png">
+                <img class="image" src="">
+            </div>
+            
+            <div id="footer">
+                <div class="subFoot">Contact Us</div>
+                <div class="subFoot">Terms of Use</div>
+                <div class="subFoot">Privacy Policy</div>
+                <div id="copyright">&copy copyright 2015 Lujan Industries | All rights reserved</div>
+            </div>
+        </div>
+        <script src='index.js'></script>
+    </body>
+
+    </html>
