@@ -5,6 +5,8 @@
         <link type="text/css" rel='stylesheet' href='index.css' />
         <title>Lujan Industries</title>
         <link rel="shortcut icon" href="Images/P02.ComLogo.png">
+        <script src=" //code.jquery.com/jquery-1.10.2.js"></script>
+        <script src=" //code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     </head>
 
     <body>
@@ -15,7 +17,7 @@
             <div class="headerRight">
                 <button class="clicky" onclick="Home()">Home</button>
                 <button class="clicky" onclick="Vehicles()">Vehicles</button>
-                <button class="clicky" onclick="Computers()">Computers</button>
+                <button class="clicky" id="bigText" onclick="Computers()">Computers</button>
                 <button class="clicky" onclick="Pixar()">Displays</button>
                 <button class="clicky" onclick="Campus()">Campus</button>
             </div>
@@ -24,9 +26,9 @@
         <div id="main">
             <div id="gallery">
                 <div>
-                    <img class="galleryImages" class="ClickAndChange" onclick="changeImage()" src="Images/PO5.Campus1.jpg" alt="Campus" title="Campus"/>
-                    <img class="galleryImages" class="ClickAndChange" onclick="changeImage()" src="Images/PO6.Campus2.jpg" alt="Campus" title="Campus"/>
-                    <img class="galleryImages" class="ClickAndChange" onclick="changeImage()" src="Images/PO7.Campus3.jpg" alt="Campus" title="Campus"/>
+                    <img class="galleryImages" class="ClickAndChange" onclick="changeImage()" src="Images/P05.Campus1.jpg" alt="Campus" title="Campus" />
+                    <img class="galleryImages" class="ClickAndChange" onclick="changeImage()" style="" src="Images/P06.Campus2.jpg" alt="Campus" title="Campus" />
+                    <img class="galleryImages" class="ClickAndChange" onclick="changeImage()" src="Images/P07.Campus3.jpg" alt="Campus" title="Campus" />
                 </div>
             </div>
 
@@ -60,6 +62,11 @@
         </div>
 
         <script src='index.js'></script>
+
     </body>
+    <div id="divs"></div>
+    <script type="text/javascript">
+        $("#divs").fadeIn(10).delay(4000).fadeOut(400);
+    </script>
 
     </html>

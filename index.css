@@ -45,23 +45,27 @@ a {
 .headerRight {
     margin-top:.3em;
     float: left;
-    width:37em;
+    width:36em;
     height:4em;
-    margin-left:6em;
+    margin-left:7em;
 }
 .clicky {
     margin-left: auto;
     margin-right: auto;
+    text-align:center;
     margin-top:.4em;
-    width:5em;
+    width:4.6em;
     height:1.5em;
     font-size:1.4em;
-    border-radius:1em;
+    border-radius:.5em;
     background-color:lightgray;
     border:lightgray;
     color:black;
     font-family: stark;
     cursor:pointer;
+}
+#bigText{
+    width:6em;
 }
 .clicky:hover {
     opacity:.5;
@@ -146,6 +150,9 @@ a {
     margin-left:.5em;
     margin-right:.5em;
 }
+.socialButtons:hover{
+    opacity: .7;
+}
 #footer{
     text-align:center;
 }
@@ -161,4 +168,13 @@ a {
     cursor:pointer;
 }
 #copyright{
+}
+#divs{
+    background-color:white;
+    height:110em;
+    width:62em;
+    margin-top:3em;
+    position:absolute;
+    margin-left:10.8em;
+    margin-bottom:1em;
 }

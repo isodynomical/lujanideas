@@ -34,4 +34,5 @@ var index=0;
       [].forEach.call(document.getElementsByClassName("galleryImages"),function (v,i) { document.getElementsByClassName("galleryImages")[i].hidden = i!==index});
       index = (index+1) % document.getElementsByClassName("galleryImages").length;
     }
-    window.onload = function () {setInterval(changeBanner, 2000)};
+    window.onload = function () {setInterval(changeBanner, 3000)};
+

@@ -1,0 +1,1 @@
+$("#divs").fadeIn(10).delay(3000).fadeOut(400);

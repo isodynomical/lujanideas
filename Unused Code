@@ -17,5 +17,14 @@
     .galleryImages{
     width:70%;
     margin-left:9.3em;
-    border: solid blue 1px;
     }
+    
+//When Document is loaded it fadesout
+    $('#divs').ready(function() {
+        $('#divs').fadeOut('slow');
+    });
+
+//When Div click div fades out
+     $('#divs').click(function() {
+        $('#divs').fadeOut('slow');
+     });
