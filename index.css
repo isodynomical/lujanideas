@@ -32,6 +32,7 @@ a {
 #industries{
     width:100%;
     cursor:pointer;
+    border: solid blue 1px;
 }
 #industries:hover{
     opacity:.5;
@@ -41,6 +42,7 @@ a {
     float: left;
     width:20em;
     margin-left:10.8em;
+    border: solid blue 1px;
 }
 .headerRight {
     margin-top:.3em;
@@ -48,6 +50,7 @@ a {
     width:36em;
     height:4em;
     margin-left:7em;
+    border: solid blue 1px;
 }
 .clicky {
     margin-left: auto;
@@ -63,6 +66,7 @@ a {
     color:black;
     font-family: stark;
     cursor:pointer;
+    border: solid blue 1px;
 }
 #bigText{
     width:6em;
@@ -78,11 +82,13 @@ a {
     position:absolute;
     margin-left:10.8em;
     margin-bottom:1em;
+    border: solid blue 1px;
 }
 .galleryImages{
     width:70%;
     height:70%;
     margin-left:9.3em;
+    border: solid blue 1px;
 }
 #galleryFooter{
     margin-top:-1.5em;
@@ -91,6 +97,7 @@ a {
     margin-left:auto;
     margin-right:auto;
     position:relative;
+    border: solid blue 1px;
 }
 .galleryButton{
     width:.5em;
@@ -110,10 +117,12 @@ a {
     margin-left:.5em;
     font-size:3em;
     font-family:stark;
+    border: solid blue 1px;
 }
 .text {
     margin-left:.7em;
     font-size:1.4em;
+    border: solid blue 1px;
 }
 .left {
     margin-top:.3em;
@@ -140,6 +149,7 @@ a {
     font-size:.9em;
 }
 #socialMedia{
+    border: solid blue 1px;
     margin-left:auto;
     margin-right:auto;
     width:12.8em;
@@ -155,6 +165,7 @@ a {
 }
 #footer{
     text-align:center;
+    border: solid blue 1px;
 }
 .subFoot{
     color:gray;
@@ -162,12 +173,14 @@ a {
     display: inline-block;
     margin-left:.5em;
     margin-right:.5em;
+    border: solid blue 1px;
 }
 .subFoot:hover{
     color:black;
     cursor:pointer;
 }
 #copyright{
+    border: solid blue 1px;
 }
 #divs{
     background-color:white;
