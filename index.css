@@ -6,8 +6,12 @@
     font-family: magra;
     src: url(Fonts/Magra-Regular.ttf);
 }
+@font-face {
+    font-family: arvo;
+    src: url(Fonts/Arvo.ttf);
+}
 body {
-    background-image:url(Images/P04.TechBack.png), url(Images/P03.LinesBack.png);
+    background-image:url(Images/P05.TechBack.png), url(Images/P04.LinesBack.png);
     background-repeat:no-repeat, repeat;
     background-position:center, 0% 0%;
     background-attachment:fixed, fixed;
@@ -19,60 +23,53 @@ a {
 }
 #header {
     margin-top:-1em;
-    margin-left:-1em;
+    margin-left:-.55em;
     margin-right:0em;
     height: 3.5em;
-    width: 84.95em;
+    width: 90.1em;
     position:absolute;
     overflow:hidden;
     z-index: 100;
     background-color:lightgray;
     opacity:.8;
 }
-#industries{
-    width:100%;
-    cursor:pointer;
-    border: solid blue 1px;
-}
-#industries:hover{
-    opacity:.5;
-}
+
 .headerLeft {
     margin-top:.3em;
     float: left;
     width:20em;
-    margin-left:10.8em;
-    border: solid blue 1px;
+    height:3.5em;
+    margin-left:12.6em;
+}
+#industries {
+    width:72%;
+    cursor:pointer;
+}
+#industries:hover {
+    opacity:.7;
 }
 .headerRight {
     margin-top:.3em;
     float: left;
     width:36em;
-    height:4em;
-    margin-left:7em;
-    border: solid blue 1px;
+    height:3.5em;
+    margin-left:5em;
 }
 .clicky {
-    margin-left: auto;
+    margin-left: 1.5em;
     margin-right: auto;
     text-align:center;
     margin-top:.4em;
-    width:4.6em;
-    height:1.5em;
     font-size:1.4em;
     border-radius:.5em;
     background-color:lightgray;
     border:lightgray;
     color:black;
-    font-family: stark;
+    font-family: arvo;
     cursor:pointer;
-    border: solid blue 1px;
-}
-#bigText{
-    width:6em;
 }
 .clicky:hover {
-    opacity:.5;
+    opacity:.7;
 }
 #main {
     background-color:white;
@@ -80,114 +77,51 @@ a {
     width:62em;
     margin-top:3em;
     position:absolute;
-    margin-left:10.8em;
+    margin-left:13.775em;
     margin-bottom:1em;
     border: solid blue 1px;
 }
-.galleryImages{
+.galleryImages {
     width:70%;
     height:70%;
     margin-left:9.3em;
-    border: solid blue 1px;
 }
-#galleryFooter{
-    margin-top:-1.5em;
-    height:1em;
-    width:2.4em;
+.title{
+    font-family:arvo;
+}
+
+#asdf{
+    height:50em;
+}
+
+#socialMedia {
     margin-left:auto;
     margin-right:auto;
-    position:relative;
-    border: solid blue 1px;
+    width:16em;
 }
-.galleryButton{
-    width:.5em;
-    height:.5em;
-    border-radius:3em;
-    float:left;
-    background-color:gray;
-    margin-left:.15em;
-    margin-right:.15em;
-    margin-top:.25em;
-    cursor:pointer;
-}
-.galleryButton:hover{
-    opacity:.5;
-}
-.title {
-    margin-left:.5em;
-    font-size:3em;
-    font-family:stark;
-    border: solid blue 1px;
-}
-.text {
-    margin-left:.7em;
-    font-size:1.4em;
-    border: solid blue 1px;
-}
-.left {
-    margin-top:.3em;
-    float:left;
-    width:30em;
-}
-.right {
-    margin-top:2em;
-    float:right;
-    width:30em;
-}
-.image {
-    width: 45%;
-}
-.one {
-    cursor:pointer;
-}
-.one:hover {
-    color:#FF0000;
-}
-.two {
-    list-style-type: circle;
-    margin-left: 2em;
-    font-size:.9em;
-}
-#socialMedia{
-    border: solid blue 1px;
-    margin-left:auto;
-    margin-right:auto;
-    width:12.8em;
-}
-.socialButtons{
+.socialButtons {
     width:2em;
     height:2em;
     margin-left:.5em;
     margin-right:.5em;
 }
-.socialButtons:hover{
+.socialButtons:hover {
     opacity: .7;
 }
-#footer{
+.footer {
     text-align:center;
-    border: solid blue 1px;
 }
-.subFoot{
+.subFoot {
     color:gray;
     font-size:.7em;
     display: inline-block;
     margin-left:.5em;
     margin-right:.5em;
-    border: solid blue 1px;
 }
-.subFoot:hover{
+.subFoot:hover {
     color:black;
     cursor:pointer;
 }
-#copyright{
-    border: solid blue 1px;
-}
-#divs{
-    background-color:white;
-    height:110em;
-    width:62em;
-    margin-top:3em;
-    position:absolute;
-    margin-left:10.8em;
-    margin-bottom:1em;
+#copyright {
+    font-family:arvo;
 }
