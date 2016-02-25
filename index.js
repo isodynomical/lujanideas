@@ -3,21 +3,18 @@ function Home() {
     window.location.href = 'index.html';
 }
 
-function Vehicles() {
+function Gizmos() {
     window.location.href = 'Aspect1.html';
 }
 
-function Computers() {
+function Pixels() {
     window.location.href = 'Aspect2.html';
 }
 
-function Pixar() {
-    window.location.href = 'Pixar.html';
+function Chuck() {
+    window.location.href = 'Aspect3.html';
 }
 
-function Campus() {
-    window.location.href = 'ThemeParks.html';
-}
 
 //Home
 loadBanner();
