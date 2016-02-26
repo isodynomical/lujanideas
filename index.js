@@ -7,7 +7,7 @@ function Gizmos() {
     window.location.href = 'Aspect1.html';
 }
 
-function Pixels() {
+function Projects() {
     window.location.href = 'Aspect2.html';
 }
 

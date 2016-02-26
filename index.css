@@ -40,22 +40,22 @@ a {
     overflow:hidden;
     position:relative;
 }
-.headerLeft {
+#headerLeft {
     float:left;
     width:20em;
     height:3em;
     margin-left:1em;
     margin-right:auto;
     position:relative;
-    cursor:pointer;
     z-index:1;
     text-align:center;
 }
 #industries {
     width:17em;
     margin-top:.02em;
+    cursor:pointer;
 }
-.headerRight {
+#headerRight {
     width:42em;
     height:3em;
     float:left;
@@ -76,13 +76,15 @@ a {
 .clicky:hover {
     opacity:.7;
 }
-#main {
+#bubble {
+    background-color:transparent;
     height:auto;
     width:62em;
-    margin-top:3em;
-    position:absolute;
-    margin-left:13.775em;
-    margin-bottom:1em;
+    margin-top:2.75em;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    bottom:1em;
 }
 .galleryImages {
     width:70%;
@@ -97,6 +99,15 @@ a {
     height:50em;
 }
 
+#footerMain{
+    color:black;
+    height:auto;
+    width:100%;
+    background-color:white;
+    float:right;
+    margin-right:0em;
+    margin-top:-.2em;
+}
 #socialMedia {
     margin-left:auto;
     margin-right:auto;
@@ -126,5 +137,6 @@ a {
     cursor:pointer;
 }
 #copyright {
+    margin-bottom:.5em;
     font-family:arvo;
 }

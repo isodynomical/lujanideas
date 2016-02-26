@@ -9,19 +9,21 @@
 <body>
     <div id="header">
         <div id="subHeader">
-            <div class="headerLeft">
-                <img id="industries" src="Images/P01.Ideas.png" alt="Lujan Ideas" title="Lujan Ideas" />
+            <div id="headerLeft">
+                <img id="industries" src="Images/P01.Ideas.png" alt="Lujan Ideas" title="Lujan Ideas" onclick="Home()" />
             </div>
-            <div class="headerRight">
+            <div id="headerRight">
                 <button class="clicky" onclick="Home()">Home</button>
                 <button class="clicky" onclick="Gizmos()">Gizmos</button>
-                <button class="clicky" onclick="Pixels()">Pixel Art</button>
+                <button class="clicky" onclick="Projects()">Projects</button>
                 <button class="clicky" onclick="Chuck()">CHUCK</button>
             </div>
         </div>
     </div>
 
-    <div id="main">
+    <br>
+
+    <div id="bubble">
         <div id="gallery">
             <div>
                 <img class="galleryImages" class="ClickAndChange" src="Images/P06.Campus1.jpg" alt="Campus" title="Campus" />
@@ -34,34 +36,35 @@
             <h1 class="title">Lujan Ideas</h1>
             <p class="text">Something</p>
         </div>
-
-        <div id="socialMedia">
-            <a href="http://www.tumblr.com/share/link?url=rewa14.github.io/PixelArt&amp;title=Lujan Ideas;hashtags=lujanideas" target="_blank">
-                <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" title="Share on Tumblr" />
-            </a>
-            <a href="https://twitter.com/share?url=rewa14.github.io/PixelArt&amp;name=Lujan Ideas&amp;hashtags=lujanideas" target="_blank">
-                <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" title="Share on Twitter" />
-            </a>
-            <a href="https://plus.google.com/share?url=rewa14.github.io/PixelArt" target="_blank">
-                <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google+" title="Share on Google+" />
-            </a>
-            <a href="http://www.facebook.com/sharer.php?u=rewa14.github.io/PixelArt" target="_blank">
-                <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" title="Share on Facebook" />
-            </a>
-            <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-                <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
-            </a>
-        </div>
-
-        <div class="footer">
-            <div class="subFoot">
-                <a href="mailto:lujanideas.com" target="blank">Contact Us</a>
+        
+        <div id="footerMain">
+            <div id="socialMedia">
+                <a href="http://www.tumblr.com/share/link?url=rewa14.github.io/lujanideas&amp;title=Lujan Ideas;hashtags=lujanideas" target="_blank">
+                    <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" title="Share on Tumblr" />
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20site%3A%20rewa14.github.io%2Flujanideas%20%23lujanideas" target="_blank">
+                    <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" title="Share on Twitter" />
+                </a>
+                <a href="https://plus.google.com/share?url=rewa14.github.io/lujanideas" target="_blank">
+                    <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google+" title="Share on Google+" />
+                </a>
+                <a href="http://www.facebook.com/sharer.php?u=rewa14.github.io/lujanideas" target="_blank">
+                    <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" title="Share on Facebook" />
+                </a>
+                <a href="mailto:?Subject=Lujan Ideas&amp;Body=I%20saw%20this%20and%20thought%20you%20might%20like%20it:%20 rewa14.github.io/lujanideas" target="_blank">
+                    <img class="socialButtons" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+                </a>
             </div>
-            <div class="subFoot">Terms of Use</div>
-            <div class="subFoot">Privacy Policy</div>
-            <div id="copyright">&copy 2016 Lujan Ideas | All rights reserved</div>
-        </div>
 
+            <div class="footer">
+                <div class="subFoot">
+                    <a href="mailto:lujanideas.com" target="blank">Email Us</a>
+                </div>
+                <div class="subFoot">Terms of Use</div>
+                <div class="subFoot">Privacy Policy</div>
+                <div id="copyright">&copy 2016 Lujan Ideas | All rights reserved</div>
+            </div>
+        </div>
     </div>
 
     <script src='index.js'></script>
